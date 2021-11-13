@@ -34,12 +34,12 @@ etc. will soon have the easiest solution to dispatch that extra food i.e. DoFoo.
 ![Architecture Diagram](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Architecture%20Diagram.png)
 
 ## Visuals
-![Contact](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Contact.png)
-![Filters](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Filters.png)
-![Listings](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Listings.png)
-![Profile](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Profile.png)
-![Contact](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Contact.png)
-![Requirements](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Requirements.png)
+![Contact](../master/Docs/Contact.png)
+![Filters](../master/Docs/Filters.png)
+![Listings](../master/Docs/Listings.png)
+![Profile](../master/Docs/Profile.png)
+![Contact](../master/Docs/Contact.png)
+![Requirements](../master/Docs/Requirements.png)
 
 **[Screen Capture](https://github.com/CodeSocio/DoFoo/blob/master/Docs/DoFoo%20Recording.mp4)**
 
