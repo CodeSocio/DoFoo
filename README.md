@@ -41,7 +41,7 @@ etc. will soon have the easiest solution to dispatch that extra food i.e. DoFoo.
 ![Contact](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Contact.png)
 ![Requirements](https://github.com/CodeSocio/DoFoo/blob/master/Docs/Requirements.png)
 
-![Screen Capture](https://github.com/CodeSocio/DoFoo/blob/master/Docs/DoFoo%20Recording.mp4)
+**[Screen Capture](https://github.com/CodeSocio/DoFoo/blob/master/Docs/DoFoo%20Recording.mp4)**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
