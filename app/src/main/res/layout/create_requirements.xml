@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateRequirement">
+
+    <ImageView
+        android:id="@+id/imageView114"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:onClick="goBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_icon" />
+
+    <ImageView
+        android:id="@+id/imageView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enter_requirements" />
+
+    <ImageView
+        android:id="@+id/imageView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/add_your_food_requirements" />
+
+    <ImageView
+        android:id="@+id/imageView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food_preference" />
+
+    <RadioGroup
+        android:id="@+id/preferenceRadioGroup"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="290dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/vegOnlyRadio"
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/vegColor"
+            android:text="Veg Only"
+            android:textSize="14sp"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/anyRadio"
+            android:layout_width="163dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/anyColor"
+            android:text="Any"
+            android:gravity="center" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_of_persons" />
+
+    <!-- Dont Feel like implmenting this as not needed
+    <ImageView
+        android:id="@+id/imageView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_8159" />
+        -->
+
+    <!-- Dont Feel like implmenting this as not needed
+   <ImageView
+       android:id="@+id/imageView133"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="352dp"
+       android:layout_marginEnd="44dp"
+       android:layout_marginRight="44dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/group_8160" />
+       -->
+
+    <ImageView
+        android:id="@+id/imageView132"
+        android:layout_width="69dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_465" />
+
+    <ImageView
+       android:id="@+id/imageView134"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="50dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="420dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/add_a_note" />
+
+   <ImageView
+       android:id="@+id/imageView135"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="455dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/add_note_txtfield" />
+
+    <EditText
+        android:id="@+id/noOfPlatesField"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="0"
+        android:inputType="number"
+        android:textSize="14sp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/imageView132"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView132"
+        app:layout_constraintTop_toTopOf="@id/imageView132" />
+
+   <EditText
+       android:id="@+id/noteField"
+       android:layout_width="273dp"
+       android:layout_height="81dp"
+       android:textSize="14sp"
+       android:background="@null"
+       android:hint="Enter your special requirements if any."
+       app:layout_constraintEnd_toStartOf="@+id/imageView135"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/imageView135"
+       app:layout_constraintTop_toTopOf="@id/imageView135" />
+
+   <ImageView
+       android:id="@+id/imageView136"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="570dp"
+       android:onClick="submit"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/place_req_btn" />
+    <fragment
+        android:id="@+id/successRequirementPlacementFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:paddingLeft="5dp"
+        class="com.codesocio.dofoo.SuccessRequirementsPlacement"
+        android:paddingStart="5dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

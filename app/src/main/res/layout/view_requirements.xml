@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/transparent"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="666dp"
+        android:layout_height="821dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_479" />
+
+    <TextView
+        android:id="@+id/requirementQtyField"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="225dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51" />
+
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/group_8130" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/line_35" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/profile_text_slider_menu" />
+
+    <ImageView
+        android:id="@+id/imageView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/food_preference" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/number_of_persons" />
+
+    <TextView
+        android:id="@+id/requirementPreferenceField"
+        android:layout_width="330dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="135dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51" />
+
+    <ImageView
+        android:id="@+id/imageView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/special_note" />
+
+    <TextView
+        android:id="@+id/requirementNoteField"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="315dp"
+        android:fontFamily="sans-serif-black"
+        android:text="No special notes."
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51" />
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/proceed_to_donate_btn" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="510dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toTopOf="@id/imageView51"
+        app:srcCompat="@drawable/by_clicking__proceed__you_confirm_that_the_food_you_have_is_meeting_the_requirements" />
+
+    <Button
+        android:id="@+id/closeViewRequirementButton"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="closeViewRequirement"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView51" />
+
+    <Button
+        android:id="@+id/proceedToDonateButton"
+        android:layout_width="311dp"
+        android:layout_height="61dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="@+id/imageView83"
+        app:layout_constraintStart_toStartOf="@+id/imageView83"
+        app:layout_constraintTop_toTopOf="@+id/imageView83" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

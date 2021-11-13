@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="devEmail">codesociodevs@gmail.com</string>
+    <string name="backendDevEmail">vishnuudai@gmail.com</string>
+    <string name="frontendDevEmail">krishnagkamath@gmail.com</string>
+    <string name="backendDevPhone">+91–974106851</string>
+    <string name="frontendDevPhone">+91–7892740690</string>
+</resources>

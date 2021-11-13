@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3FF5722</color>
+    <color name="colorPrimaryVariant">#E8FF5722</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorSecondary">#FF9800</color>
+    <color name="colorSecondaryVariant">#FFEB3B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vegColor">#2E7D32</color>
+    <color name="anyColor">#C62828</color>
+</resources>

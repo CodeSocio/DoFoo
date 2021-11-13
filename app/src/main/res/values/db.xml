@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_project_id">dofoo-320804</string>
+
+    <!--<string name="db_user">dev_testing</string>
+    <string name="db_password">test1234</string>-->
+</resources>

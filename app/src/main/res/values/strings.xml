@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DoFoo</string>
+    <string name="faq_q1">
+        <b>What is DoFoo?</b>
+    </string>
+    <string name="faq_ans1">
+        DoFoo is an application that acts as a bridge between a food donor and recipients. "DoFoo"  simply means Donate Food.
+    </string>
+    <string name="faq_q2">
+        <b>Whom does DoFoo help?</b>
+    </string>
+    <string name="faq_ans2">
+        Your shared meals help orphans, old aged, cancer and AIDS patients and various charities.
+    </string>
+    <string name="faq_q3">
+        <b>What does DoFoo do?</b>
+    </string>
+    <string name="faq_ans3">
+        DoFoo lists out the charities near you and their food requirements. DoFoo also provides the charity contact information and location to deliver or let someone from the org pickup the food.
+    </string>
+    <string name="faq_q4">
+        <b>Why hunger?</b>
+    </string>
+    <string name="faq_ans4">
+        There are 690 million people who do not get enough food to lead a healthy and active life. As the world continues to see an increase in conflict, climate change and economic instability, the rate of hunger is accelerating.
+    </string>
+    <string name="faq_q5">
+        <b>What is our goal?</b>
+    </string>
+    <string name="faq_ans5">
+        We aim to connect the people having excess food with the needy and eradicate the food scarcity issues in the society. We want to make sure that not a single individual sleeps with an empty stomach.
+    </string>
+    <string name="faq_q6">
+        <b>What is your role?</b>
+    </string>
+    <string name="faq_ans6">
+        You can always use this platform to find the needy and fill their tummy with the excess amount of food you have. However, no one has ever become poor from giving :)
+    </string>
+    <string name="preferencesFile">dofoo_preferences_data</string>
+</resources>
+
